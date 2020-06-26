@@ -13,7 +13,7 @@ flags.DEFINE_string("path", default=None, short_name="p", help="Input csv.")
 flags.DEFINE_boolean("use_ti", default=False, short_name="ti",
                      help="Use Triangle Inequality (TI).")
 flags.DEFINE_list("reference_point", default=[], short_name="rp",
-                  help="Reference point for TI")
+                  help="Reference default list of minimums.")
 flags.DEFINE_string("output_path", default="clusters.csv", short_name="o", help="Output file path")
 flags.mark_flag_as_required("path")
 

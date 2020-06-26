@@ -25,6 +25,8 @@ def k_neighbourhood(vec, k):
             neighbours.add(i)
         _fill(knb, r_knb, idx1, neighbours)
     print("Sorting time --- %s seconds ---" % (sort_time))
+    print("vec {}".format(vec))
+    print(knb, r_knb)
     return knb, r_knb
 
 
